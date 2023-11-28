@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ProjectBR</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Hesap Oluştur</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ad-Soyad , E-mail ve Şifrenizi Giriniz</span>
+                <input type="text" placeholder="Ad-Soyad">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Şifre">
+                <button>Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Giriş Yap</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ya da E-mail ve Şifrenizi Kullanın</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Şifre">
+                <a href="#">Şifrenizi mi unuttunuz?</a>
+                <button>Giriş Yap</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Tekrardan Hoşgeldiniz!</h1>
+                    <p>Sitemizin Bütün Özelliklerinden Yararlanmak için Bilgilerinizi Giriniz</p>
+                    <button class="hidden" id="login">Giriş Yap</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hoşgeldin Kanzi</h1>
+                    <p>Sitemizin Bütün Özelliklerinden Yararlanmak için Bilgilerinizi Giriniz</p>
+                    <button class="hidden" id="register">Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
